@@ -27,9 +27,6 @@ def load_library (file)
               }
     
             }
-  #pp data
-  pp emojies
-
   emojies
   
 end
