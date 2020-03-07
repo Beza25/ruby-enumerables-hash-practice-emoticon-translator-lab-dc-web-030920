@@ -32,7 +32,10 @@ def load_library (file)
 end
 
 def get_japanese_emoticon (file,  emoticon)
-  # code goes here
+  # code goes 
+  
+  emoticon_hash = load_library (file)
+  answer = 
 end
 
 def get_english_meaning
