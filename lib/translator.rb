@@ -8,7 +8,11 @@ def load_library (file)
   # code goes here
   data = YAML.load_file(file)
   emojies = { :get_meaning => 
-                { "☜(⌒▽⌒)☞" :
+                { "☜(⌒▽⌒)☞" => "",
+                  "(ΘεΘ;)": "",
+                  "(￣ー￣)": "", 
+                  "o_O": "",
+                  "(^_-)" : ""
                  
                   
                 }, 
