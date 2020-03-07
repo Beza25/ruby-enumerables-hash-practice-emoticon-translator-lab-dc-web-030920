@@ -13,8 +13,6 @@ def load_library (file)
                   "(￣ー￣)": "", 
                   "o_O": "",
                   "(^_-)" : ""
-                 
-                  
                 }, 
               :get_emoticon =>{}}
   #pp data
