@@ -14,7 +14,7 @@ def load_library (file)
   emojies = { :get_meaning => 
                 { "☜(⌒▽⌒)☞" => "",
                   "(ΘεΘ;)" => "bored"
-                  "(￣ー￣)" => "", 
+                  "(￣ー￣)" => "surprised", 
                   "o_O" => "",
                   "(^_-)" => ""
                 },
