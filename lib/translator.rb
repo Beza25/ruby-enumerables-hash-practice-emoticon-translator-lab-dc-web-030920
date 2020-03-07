@@ -5,7 +5,7 @@ def load_library (file)
   # code goes here
   data = YAML.load_file(file)
   emojies = { :get_meaning => 
-                {:japanese_emoticon => []}, 
+                {:japanese_emoticon => ["☜(⌒▽⌒)☞"]}, 
               :get_emoticon =>{}}
   #pp data
   pp emojies
