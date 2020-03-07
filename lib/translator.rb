@@ -4,6 +4,7 @@ require "yaml"
 def load_library (file)
   # code goes here
   data = YAML.load_file(file)
+  has= { : get_meaning, :
   pp data
   data
 end
