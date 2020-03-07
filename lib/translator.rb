@@ -10,7 +10,7 @@ require "yaml"
 def load_library (file)
   # code goes here
   data = YAML.load_file(file)
-  emojies = { :get_meaning => 
+   emoticon = { :get_meaning => 
                 { "☜(⌒▽⌒)☞" => "angel",
                   "(ΘεΘ;)" => "bored",
                    "(￣ー￣)" => "",
@@ -27,11 +27,11 @@ def load_library (file)
               }
     
             }
-  emojies
+   emoticon
   
 end
 
-def get_japanese_emoticon (file)
+def get_japanese_emoticon (file,  emoticon)
   # code goes here
 end
 
