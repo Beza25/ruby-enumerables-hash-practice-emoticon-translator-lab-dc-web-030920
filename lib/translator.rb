@@ -17,7 +17,9 @@ def load_library (file)
                   "(^_-)" => "wink"
                 },
          
-              :get_emoticon =>{}
+              :get_emoticon =>{
+                
+              }
     
             }
   #pp data
