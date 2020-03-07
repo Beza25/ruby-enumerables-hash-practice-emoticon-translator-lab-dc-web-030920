@@ -9,12 +9,15 @@ def load_library (file)
   data = YAML.load_file(file)
   emojies = { :get_meaning => 
                 { "☜(⌒▽⌒)☞" => "",
-                  "(ΘεΘ;)": "",
-                  "(￣ー￣)": "", 
-                  "o_O": "",
-                  "(^_-)" : ""
-                }, 
-              :get_emoticon =>{}}
+                  "(ΘεΘ;)" =>  "",
+                  "(￣ー￣)" => "", 
+                  "o_O" => "",
+                  "(^_-)" => ""
+                },
+         
+              :get_emoticon =>{}
+    
+            }
   #pp data
   pp emojies
 
