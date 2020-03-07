@@ -2,12 +2,13 @@
 require "yaml"
 
 #  ["☜(⌒▽⌒)☞","ヽ(ｏ`皿′ｏ)ﾉ","(ΘεΘ;)", "(゜.゜)", "(#^.^#)",">゜))))彡","8D", "(^0_0^)","=D", "(￣ー￣)","(＾ｖ＾)","(*^3^)/~☆","(Ｔ▽Ｔ)",":o", "o_O", "(^_-)"]
+# :japanese_emoticon => 
 
 def load_library (file)
   # code goes here
   data = YAML.load_file(file)
   emojies = { :get_meaning => 
-                {:japanese_emoticon => 
+                {
                    ["☜(⌒▽⌒)☞", "(ΘεΘ;)", "(￣ー￣)", "o_O", "(^_-)"]
                  
                   
